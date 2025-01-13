@@ -1,11 +1,4 @@
 config.files.push({
-   pattern: __dirname + "/src/jsTest/resources/**",
-   watched: false,
-   included: false,
-   served: true,
-   nocache: false
-});
-config.files.push({
    pattern: __dirname + "/src/commonTest/resources/**",
    watched: false,
    included: false,
